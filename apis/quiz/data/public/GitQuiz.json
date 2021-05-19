@@ -1,0 +1,195 @@
+{
+     " info " : {
+         " slug " :     " new " ,
+         " name " :     " Student " ,
+         " status " :     " draft " ,
+         " main " :     " Some falso description " ,
+         " results " : "Congratulations, you completed the quiz and you are above 70% of the average, keep it up. ",
+         " badges" : [
+            { " slug " : "Git_GodOfPractices" , " points " : 23 }
+        ]
+    },
+    " questions" : [
+        {
+            " quiz " : "1.- If i have errors with my repository i need use ... " ,
+            " answers " : [
+                { " option " : " cry and wait for it to be miraculously resolved " , " correct " : false },
+                { " option " : " i use 'git fix' " , " correct " : false },
+                { " option " : " npm audit fix " , " correct " : true },
+                { " option " : " git audit fix " , " correct " : false }
+            ]
+        },
+        {
+            " quiz " : "2.- I have 2 branch and 1 are not in used, i need Remove the branch in desuse: " ,
+            " answers " : [
+                { " option " : " git d <name of branch> " , " correct " : false },
+                { " option " : " git delete <name of branch> " , " correct " : false },
+                { " option " : " git branch -d <name of branch> " , " correct " : true },
+                { " option " : " git rm <name of branch> " , " correct " : false }
+            ]
+        },
+        {
+            " quiz " : "3.- Rigoberto need Push all branches(2) to his remote repository: " ,
+            " answers " : [
+                { " option " : " git push origin master " , " correct " : false },
+                { " option " : " git push all origin " , " correct " : false },
+                { " option " : " git push -u origin " , " correct " : false },
+                { " option " : " git push --all origin " , " correct " : true }
+            ]
+        },
+        {
+            " quiz " : "4.- Rigoberto finished his project, now need fetch and merge his project to the main repository of the team, Rigoberto needs ... " ,
+            " answers " : [
+                { " option " : " git pull " , " correct " : true },
+                { " option " : " git pull request " , " correct " : false },
+                { " option " : " git merge <branch name> " , " correct " : false },
+                { " option " : " git merge origin " , " correct " : false }
+            ]
+        },
+        {
+            " quiz " : "5.- Rigoberto has cloned a GitHub repository and created a new one to play with some changes and can't push to his personal repository, he need..." ,
+            " answers " : [
+                { " option " : " git request origin master " , " correct " : false },
+                { " option " : " Rigoberto must change the url of the previous repository because he has used git clone " , " correct " : true },
+                { " option " : " Rigoberto must manually copy and paste the code to his local repository " , " correct " : false },
+                { " option " : " Rigoberto must use pull request " , " correct " : false }
+            ]
+        },
+        {
+            " quiz " : "6.- how to see local branch? " ,
+            " answers " : [
+                { " option " : " git branch -a " , " correct " : false },
+                { " option " : " git branch " , " correct " : true },
+                { " option " : " git -v branch " , " correct " : false },
+                { " option " : " git -l branch " , " correct " : false }
+            ]
+        },
+        {
+            " quiz " : "7.- What is the default text editor for the Bash shell with a Windows-based Git install?" ,
+            " answers " : [
+                { " option " : " Emacs " , " correct " : false },
+                { " option " : " VSCode " , " correct " : false },
+                { " option " : " Notepad++ " , " correct " : false },
+                { " option " : " Vim " , " correct " : true }
+            ]
+        },
+        {
+            " quiz " : "8.- Which of the following is not a Git configuration?" ,
+            " answers " : [
+                { " option " : " User " , " correct " : true },
+                { " option " : " Local " , " correct " : false },
+                { " option " : " System " , " correct " : false },
+                { " option " : " Global " , " correct " : false }
+            ]
+        },
+        {
+            " quiz " : "9.- After Rigoberto initialized a new Git repository and create a file named GitQuiz.json, which of the following commands will not work if issued?" ,
+            " answers " : [
+                { " option " : " git add GitQuiz.json " , " correct " : false },
+                { " option " : " git status " , " correct " : false },
+                { " option " : " git add . " , " correct " : false },
+                { " option " : " git commit -m 'GitQuiz.json file added' " , " correct " : true }
+            ]
+        },
+        {
+            " quiz " : "10.- Which command should you use to initialize a new Git repository?" ,
+            " answers " : [
+                { " option " : " git start " , " correct " : false },
+                { " option " : " git init " , " correct " : true },
+                { " option " : " git initialize " , " correct " : false },
+                { " option " : " git install " , " correct " : false }
+            ]
+        },
+        {
+            " quiz " : "11.- Which file can you configure to ensure that certain file types are never committed to the local Git repository?" ,
+            " answers " : [
+                { " option " : " ignore.md " , " correct " : false },
+                { " option " : " ignore.git " , " correct " : false },
+                { " option " : " git.ignore " , " correct " : false },
+                { " option " : " .gitignore " , " correct " : true }
+            ]
+        },
+
+        {
+            " quiz " : "12.- Rigoberto needs to switch to a work branch, how would he do it?" ,
+            " answers " : [
+                { " option " : " git checkout <branch name> " , " correct " : true },
+                { " option " : " git switch <branch name> " , " correct " : false },
+                { " option " : " git change branch " , " correct " : false },
+                { " option " : " git git branch -d <branch name> " , " correct " : false }
+            ]
+        },
+        {
+            " quiz " : "13.- I need to delete a branch, how would did it " ,
+            " answers " : [
+                { " option " : " git -d <branch name> " , " correct " : false },
+                { " option " : " git -d checkout <branch name> " , " correct " : false },
+                { " option " : " git checkout -d <branch name> " , " correct " : true },
+                { " option " : " delete all of my repository " , " correct " : false }
+            ]
+        },
+        {
+            " quiz " : "14.- Regarding 'git fetch', 'git pull' and 'git push' which of the following statements is true?" ,
+            " answers " : [
+                { " option " : " 'git fetch' does not communicate with a remote, 'git pull' does" , " correct " : false },
+                { " option " : " both 'git fetch' and 'git pull' retrieve all new commits from a remote " , " correct " : true },
+                { " option " : " 'git pull' is the opposite of 'git push' " , " correct " : false },
+                { " option " : " !true " , " correct " : false }
+            ]
+        },
+        {
+            " quiz " : "15.- Rigoberto needs to push a new repository, but he has a new computer and is not recognised for git, he need...",
+            " answers " : [
+                { " option " : "he needs to use 'git push --force' to force the push" , " correct " : false },
+                { " option " : "he needs to update git bash" , " correct " : false },
+                { " option " : "he must use gitpod to use it from his computer" , " correct " : false },
+                { " option " : "he needs to enter his data through the commands git delivers" , " correct " : true }
+            ]
+        },
+        {
+            " quiz " : "16.- How can you fix a broken commit?" ,
+            " answers " : [
+                { " option " : " git commit --amend " , " correct " : true },
+                { " option " : " git fix commit " , " correct " : false },
+                { " option " : " git -m 'new commit' " , " correct " : false },
+                { " option " : " git commit -amend" , " correct " : false }
+            ]
+        },
+        {
+            " quiz " : "17.- How delete file on git?" ,
+            " answers " : [
+                { " option " : " git remove [fileName] " , " correct " : false },
+                { " option " : " git -d [fileName] " , " correct " : false },
+                { " option " : " git delete [fileName] " , " correct " : false },
+                { " option " : " git rm [fileName] " , " correct " : true }
+            ]
+        },
+        {
+            " quiz " : "18.- How to display your entire Commit History? " ,
+            " answers " : [
+                { " option " : " git log " , " correct " : true },
+                { " option " : " git log commit " , " correct " : false },
+                { " option " : " git log commits " , " correct " : false },
+                { " option " : " git log a . " , " correct " : false }
+            ]
+        },
+        {
+            " quiz " : "19.- How generate patch files or statistics of differences between paths of files in your git repository, your index or your working directory?" ,
+            " answers " : [
+                { " option " : " git diff a ." , " correct " : false },
+                { " option " : " git log" , " correct " : false },
+                { " option " : " git diff " , " correct " : true },
+                { " option " : " git tag " , " correct " : false }
+            ]
+        },
+        {
+            " quiz " : "20.- How to Optimize your repository?" ,
+            " answers " : [
+                { " option " : " git -gc . " , " correct " : false },
+                { " option " : " git optimize " , " correct " : false },
+                { " option " : " git gc" , " correct " : true },
+                { " option " : " git Garbage Collector " , " correct " : false }
+            ]
+        }
+    ]
+} 
